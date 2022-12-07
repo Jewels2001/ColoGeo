@@ -27,6 +27,7 @@ body {
 
 img {
     max-width: 100%;
+    max-height: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -56,4 +57,6 @@ img {
 
 #cotd2 {
     font-size: 36;
+    margin-left: auto;
+    margin-right: auto;
 }

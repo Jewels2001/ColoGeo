@@ -56,9 +56,8 @@ function onDeviceReady() {
             // do something with URL, assign to src or create an html 
             //$('#photo1').href = myNewImage;
             $("#photos").append("<img src='" + image + "'>");
-            $("#add").append(
-                '<li class="item-content"> <div class="item media"> <div class="square"></div></div><div class="item-inner"><div class="item-title-row">' + "<img src='" + image + "'>" + " </div> <div class='item-subtitle'></div></div></li >"
-
+            $("#add").append(test
+                // `<li class="item-content"> <div class="item media"> <div class="square"></div></div><div class="item-inner"><div class="item-title-row"> <img src='` + image + "'>" + " </div> <div class='item-subtitle'></div></div></li >"
             )
             //$("#takePic").after("<img src='" + image + "'>");
             // $("#myimg").attr("src", imageData);

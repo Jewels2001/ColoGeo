@@ -38,7 +38,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Sono&display=swap" rel="stylesheet">
-        <title>Media Capture App</title>
+        <title>GeoPix / GeoColo </title>
     </head>
     <body>
         <div id="app">
@@ -48,12 +48,46 @@
                 <!-- component will apply to all pages in view -->
         
                 <div data-name="home" class="page">
+                    <div class="toolbar toolbar-bottom">
+                        <div class="toolbar-inner">
+                            <!-- Toolbar Links -->
+                            <a href="/about/" class="link">About</a>
+                            <a href="/" class="link logo"><img class="logo" src="img/Icon1.png"></a>
+                            <a href="/mapA/" class="link">Map</a>
+                        </div>
+                    </div>
                     <!-- component is fixed to the page -->
         
                     <div class="page-content">
                         <div class="block">
-                            <h1> Camera! </h1>
-                            <button class="button button-round button-fill" id="takePic"> Say Cheese! </button>
+                            <h1> Hello! </h1>
+                            <div class="row">
+                                <div class="col-100 medium-50">
+                                    Your random colo(u)r is.....
+                                </div>
+                                <!-- <div class="col-100 medium-50"> -->
+                                    <div class="col-50 medium-25">
+                                        <div id="cotd1"></div>
+                                    </div>
+                                    <div class="col-50 medium-25">
+                                        <div id="cotd2"></div>
+                                    </div>
+                                <!-- </div> -->
+                                <div class="col-50 medium-25">
+                                    <button class="button button-round button-large button-fill" id="takePic"> Camera! </button>
+                                </div>
+                                <div class="col-50 medium-25">
+                                    <a href="/mapA/" class="button button-round button-large button-fill"> Maps </a>
+                                </div>
+                                <div class="col-50 medium-25">
+                                    <a href="/pics/" class="button button-round button-large button-fill"> Colors </a>
+
+                                </div>
+                                <div class="col-50 medium-25">
+                                    <a href="/settings/" class="button button-round button-large button-fill"> Settings </a>
+
+                                </div>
+                            </div>
                             <div class="card">
                                 <div class="card-content card-content-padding" id="photos">
                                     <img src="img/placeholder.png" alt="Placeholder :)" >

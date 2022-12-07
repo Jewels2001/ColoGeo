@@ -2,10 +2,11 @@
 /* Custom color theme */
 :root {
     --f7-grid-gap: 3px;
-    --f7-theme-color: #Fbbfef;
+    --f7-grid-row-gap: 20px;
+    --f7-theme-color: #6cdc56;
     --f7-theme-color-rgb: 175, 129, 240;
-    --f7-theme-color-shade: #D8A1E3;
-    --f7-theme-color-tint: #E3A1B5;
+    --f7-theme-color-shade: #378506;
+    --f7-theme-color-tint: #3353d6;
     --f7-card-header-text-color: #000;
     --f7-list-item-divider-height: 5px;
     --f7-button-fill-text-color: #000;
@@ -30,4 +31,29 @@ img {
     margin-right: auto;
 }
 
+.logo {
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.square {
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3353d6;
+}
+
+#cotd1 {
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3353d6;
+}
+
+#cotd2 {
+    font-size: 36;
+}
